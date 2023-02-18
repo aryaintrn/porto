@@ -48,5 +48,108 @@ nav ul li a{
 
 nav ul li a:hover{
     color: #10f5cc;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #3a4f52;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
 }
 /*END HEADER*/
+/*CONTENT*/
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: aliceblue;
+    font-size: 75px;
+    margin: 20px 0 20px;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #10f5cc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslater form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslater form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #10f5cc;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newslater form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #10f5cc;
+    color: #1b2326;
+    box-shadow: 0px 0px 5px #000, 0px 0px 10px #858585;
+    top: 6px;
+    right: 6px;
+}
+/*END CONTENT*/
+/*ABOUT*/
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #1b2326;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.a-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.a-text h2{
+    color: aliceblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/*END ABOUT*/
