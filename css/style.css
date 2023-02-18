@@ -4,3 +4,32 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+/*HEADER*/
+.arya{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #10f5cc;
+}
+/*END HEADER*/
