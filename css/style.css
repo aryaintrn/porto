@@ -240,22 +240,97 @@ h5{
     line-height: 27px;
     margin-bottom: 25px;
 }
+/*END SERVICE*/
+/*CONTACT US*/
+.contact-us{
+    width: 100%;
+    height: 290px;
+    background: #1b2326;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.card .button{
+.contact-us p{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.contact-us .b-hire{
     background-color: #10f5cc;
     color: #1b2326;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 9px 22px;
+    padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
 }
 
-.card .button:hover{
+.contact-us .b-hire:hover{
     background-color: transparent;
     border: 2px solid #10f5cc;
     cursor: pointer;
     color: #10f5cc;
 }
-/*END SERVICE*/
+/*END CONTACT US*/
+/*FOOTER*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #1b2326;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    color: aliceblue;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.sosmed{
+    display: flex;
+}
+
+.sosmed a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #10f5cc;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #3a4f52;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sosmed a:hover{
+    transition: scale(1.3);
+    transition: .3s;
+}
+
+.cr{
+    position: absolute;
+    color: aliceblue;
+    bottom: 35px;
+    font-size: 14px;
+}
+/*END FOOTER*/
